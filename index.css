@@ -1,0 +1,24 @@
+body{
+
+    background-color: gray;
+
+}
+
+.azulejos
+    {
+        list-style: none;
+        margin: 4em 4em;
+        display: grid;
+        grid-template-columns: repeat(4, 40px);
+        column-gap: 8em;
+    }
+
+.azulejo
+    {
+        margin-top: 4em;
+        height: 8em;
+        width: 8em;
+        border: 6px solid lightgray;
+        background: black;
+        cursor: pointer;
+    }
